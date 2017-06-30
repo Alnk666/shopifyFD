@@ -607,7 +607,7 @@
       if(!_data('pages')){
         $.ajax({
           type: 'GET',
-          url: '/admin/blogs/97947661/articles.json?limit='+settings.apiLimit,
+          url: '/admin/blogs/garage/articles.json?limit='+settings.apiLimit,
           dataType: 'json',
           success: function(d){
             if(d.articles.length){
